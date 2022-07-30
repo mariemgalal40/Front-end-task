@@ -25,5 +25,6 @@
 <img src="./images/signup.PNG"><br>
 
 ##### and here is a gif of all steps of showing the dealing with database and for running the code
+###### (please wait a while for done downloading)
 
 ![](Animation.gif)
