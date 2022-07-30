@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    display: grid;
+    height: 600px;
+    position: relative;
+}
+.center-fit {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+
+body {
+    margin: auto;
+  
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    margin: auto;
+  
+    overflow: hidden;
+    background-color: #FAFAFA;
+    padding: 20px 20px;
+    position: relative; 
+  }
+  
+  .topnav a {
+    margin: auto;
+  
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #FAFAFA;
+    color: #FAFAFA;
+  }
+  
+  .topnav .search-container {
+    position: absolute;
+    left: 600px;
+    margin: auto;
+  
+  }
+  
+  .topnav input[type=text] {
+    margin: auto;
+  
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    margin: auto;
+  
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #FDB921;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .topnav .search-container button:hover {
+    margin: auto;
+  
+    background: #FDB921;
+  }
+  
+  .button {
+    margin: auto;
+  
+    background-color: #FAFAFA; /* Green */
+    border: none;
+    color: #FDB921;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+    left: 1100px;
+    position: absolute; 
+    bottom: 0;
+  }
+  .button2 {background-color: #FDB921; 
+    color: white; 
+    left: 1250px;  
+    padding: 15px 32px; 
+    margin: auto;
+  
+  } 
+  
+  
+  .slide1{
+          width: 100%;
+          height:450px ;
+          background-repeat: no-repeat;
+          background-position: center bottom;
+      
+      }
+      .slide1-content{
+          color:  #D3A130;
+          position: absolute;
+          left: 100px;
+          top: 120px;
+          font-family:'Redressed';
+          width:40%
+      }
+  
+      .title1{
+          font-size: 50px;
+          position: center;
+          padding-bottom: 10px;
+          font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }  
+      
+      
+      .slide2-content{
+          /* color:  #D3A130; */
+          position: absolute;
+          left: 900px;
+          top: 1000px;
+          /* font-family:'Redressed'; */
+          width:40%
+      }
+      .title2{
+        color: #252B42;
+          font-size: 40px;
+          position: absolute;
+          padding-bottom: 50px;
+          /* left: 500px; */
+          font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }   
+      
+      .parent {
+    position: absolute;
+    top: 800px;
+    left: 250px;
+  }
+  .rect {
+    position: absolute;
+    top: 200;
+    left: 360px;
+    /* border: 1px red solid; */
+  }
+  .d {
+     /* -webkit-text-decoration-line: overline underline; Safari */
+     /* text-decoration-line: overline underline;  */
+     /* color: #EE8D35; */
+     width: 100px;
+      border-top: 4px solid #EE8D35;
+      /* border-bottom: 10px solid #EE8D35  ; */
+     
+  }
+  
+  .d2 {
+     /* -webkit-text-decoration-line: overline underline; Safari */
+     /* text-decoration-line: overline underline;  */
+     /* color: #EE8D35; */
+     width: 80px;
+      /* border-top: 4px solid #EE8D35; */
+      border-bottom: 10px solid #EE8D35  ;
+     
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .circ {
+    position: relative;
+    top: 495px;
+    left: 0px;
+    
+    /* border: 1px red solid; */
+  }
+  
+  @media screen and (max-width: 400px) {
+    
+    /* .topnav .search-container {
+      float: left;
+    } */
+    .topnav a, .topnav input[type=text], .topnav .search-container button , .button , .button2 {
+      /* float: left; */
+      display: block;
+      text-align: left;
+      /* width: 90%; */
+      /* margin: 0; */
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+
+  .emailform {
+    position:absolute;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    top: 2200px; 
+    left: 430px;
+  
+    /* margin-top: 500px; */
+  }

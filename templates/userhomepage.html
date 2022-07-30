@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" href= "homestyle.css"> -->
+<!-- <link rel="stylesheet" href= "bootstrap.css"> -->
+<link rel="stylesheet" href= "{{ url_for('static',filename='stylesheets/bootstrap.css') }}">
+<link rel="stylesheet" href= "{{ url_for('static',filename='stylesheets/homestyle.css') }}">
+
+<!-- <link rel="stylesheet" type="text/css" href="example.css"  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+
+  <div class="search-container">
+    <form >
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i style="color:white ;" class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+<div class="imgbox">
+  <!-- <img border="0" alt="patients" src= "{{ url_for('static',filename='img/background.png') }}"> -->
+<img class="center-fit" class="slide1" src="{{ url_for('static',filename='images/background.png') }}"  alt="background">
+<div class="slide1-content">
+  <h3 class="title1"> Caffee first,</h3>
+  <h3 class="title1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Schemes later.</h3>
+</div> 
+</div>
+
+<div class="parent">
+  <!-- <img class="image1" src="https://via.placeholder.com/50" /> -->
+  <svg  class="rect" width="120" height="140" >
+  <rect  width="120" height="140" style="fill:#EE8D35;stroke-width:3;" />
+  <circle cx="300" cy="10" r="40"  stroke-width="3" fill= #FDB921 />
+</svg>
+
+<img class="image2" src="{{ url_for('static',filename='images/image.png') }}" />
+<img class="circ" src="{{ url_for('static',filename='images/circ.png') }}"  />
+
+</div>
+<div class="slide2-content">
+  <div class="d title2"> </div>
+  <span style="font-size :45px ;"> Make your <br></span>
+
+      <span style="text-decoration: underline solid #EE8D35 20%; font-size :45px ; "  > Own Caffee</span>    
+
+</div> 
+<div class="container">
+  <h5 style="color: #31ACF1;"> practice Advice</h5>
+  <h1 style="color: black;"> Coffee Products  </h1>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail" ><br>
+          <img src="{{ url_for('static',filename='images/image4.png') }}"  style="width:100%">
+          <div class="caption">
+            <p style= "font-family:Arial; color: #003B40; font-weight: bold; text-shadow:1px 2px gray;"> <br>Coffee</p>
+          <span style="color: orange; text-shadow:1px 2px gray;"" class="fa fa-star checked"> </span>
+          <span style="color: black; font-weight: bold;text-shadow:1px 2px gray;"" > 4.4</span>
+          <span style="color: gray;" > 429 reviews</span>
+          <span style="color: #3F6C6F; font-weight: bold;" > <br> New Cairo,Egypt</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail" ><br>
+          <img src="{{ url_for('static',filename='images/image1.png') }}"  style="width:100%">
+          <div class="caption">
+            <p style= "font-family:Arial; color: #003B40; font-weight: bold; text-shadow:1px 2px gray;"> <br>Coffee</p>
+          <span style="color: orange; text-shadow:1px 2px gray;"" class="fa fa-star checked"> </span>
+          <span style="color: black; font-weight: bold;text-shadow:1px 2px gray;"" > 4.4</span>
+          <span style="color: gray;" > 429 reviews</span>
+          <span style="color: #3F6C6F; font-weight: bold;" > <br> New Cairo,Egypt</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail" ><br>
+          <img src="{{ url_for('static',filename='images/image2.png') }}" style="width:100%">
+          <div class="caption">
+            <p style= "font-family:Arial; color: #003B40; font-weight: bold; text-shadow:1px 2px gray;"> <br>Coffee</p>
+          <span style="color: orange; text-shadow:1px 2px gray;"" class="fa fa-star checked"> </span>
+          <span style="color: black; font-weight: bold;text-shadow:1px 2px gray;"" > 4.4</span>
+          <span style="color: gray;" > 429 reviews</span>
+          <span style="color: #3F6C6F; font-weight: bold;" > <br> New Cairo,Egypt</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail" ><br>
+          <img src="{{ url_for('static',filename='images/image3.png') }}" style="width:100%">
+          <div class="caption">
+            <p style= "font-family:Arial; color: #003B40; font-weight: bold; text-shadow:1px 2px gray;"> <br>Coffee</p>
+          <span style="color: orange; text-shadow:1px 2px gray;"" class="fa fa-star checked"> </span>
+          <span style="color: black; font-weight: bold;text-shadow:1px 2px gray;"" > 4.4</span>
+          <span style="color: gray;" > 429 reviews</span>
+          <span style="color: #3F6C6F; font-weight: bold;" > <br> New Cairo,Egypt</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="emailform">
+  <div class="search-container">
+    <form >
+      <input style="width:350px ; height: 35px;" type="text" placeholder="Your Email" name="search">
+      <button style="background-color:orange ; color: white; width: 5%;  height: 35px; border-color: orange;" type="submit">subscribe</button>
+    </form>
+  </div>
+  
+</div>
+</body>
+</html>
