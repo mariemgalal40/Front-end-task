@@ -7,13 +7,13 @@
 #### 3-Run webpage.py to go into the localhost web page
 
 #### The home page
-<img src="./images/img1.PNG" width="200"><br>
+<img src="./images/img1.PNG" ><br>
 
-<img src="./images/img2.PNG" width="200" height="130" >
+<img src="./images/img2.PNG"  >
 
 #### When the user clicks on the login button he moves to the login page (login.html)
 
-<img src="./images/login.PNG" width="200"><br>
+<img src="./images/login.PNG" ><br>
 
 #### After entering a saved username and password (in database) user moves back to the home page (userhomepage.html)
 
